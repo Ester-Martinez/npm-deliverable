@@ -12,7 +12,7 @@ nav {
   padding-top: 15px;
   height: 50px;
 }
-nav a {
+a {
   color: white;
   text-decoration: none;
 }
@@ -28,7 +28,7 @@ nav a {
 }
 .main-text {
   width: 500px;
-  margin: 50px 250px;
+  margin: 50px 225px;
 }
 header {
   background-image: url(images/city-scape.svg);
@@ -36,39 +36,37 @@ header {
   color: white;
   height: 300px;
 }
-header .container-1 {
-  padding: 0;
-  background: rgb(32, 101, 136);
-}
 .searchbar {
   margin: 0;
   color: rgb(31, 82, 111);
   text-decoration: none;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  align-content: space-around;
 }
-.searchbar li {
-  display: inline-block;
-  padding: 0;
-  border: 1px solid red;
+.searchbar input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 70%;
+  height: 20px;
+  background: rgb(32, 101, 136);
 }
-.container-1 input {
-  width: 600px;
+.searchbar button {
+  padding: 5px;
+  background: rgb(32, 101, 136);
+  color: white;
+  font-size: 22px;
+  border: 1px solid grey;
+  border-left: none;
 }
-#logo-npm {
-  width: 5%;
-  height: 40px;
-  margin: 0 0 2%;
+.logo-npm {
+  padding: 0 25px;
 }
-#searchbox {
-  width: 55%;
-  margin: 0 0 2%;
-}
-#signup-main {
-  width: 20%;
-  height: 40px;
-  margin: 0 0 2%;
-}
-#logo-bear {
-  width: 5%;
-  height: 40px;
-  margin: 0 0 2%;
+.signup-main {
+  padding: 0 25px;
+  align-self: center;
 }

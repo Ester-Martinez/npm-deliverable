@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="styles1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
       @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
     </style>
@@ -25,18 +26,12 @@
     </ul>
   </nav>
   <header id="first-box">
-    <div class="searchbar float-right">
-      <ul id="searchbar-content">
-      <li id="logo-npm"><img src="images/npm-logo.png" alt="npm-logo" id="logo" width="100%" class="float-left"></li>
-      <li id="searchbox" class="float-left"><div class="box">
-          <div class="container-1">
-              <input type="search" id="search" placeholder="Find packages..." />
-            <span class="icon"><i class="fa fa-search"></i></span>
-          </div>
-          </div></li>
-      <li id="signup-main" class="float-left"><a href="#">Sign up or log in</a></li>
-      <li id="logo-bear"><img src="images/bear-logo.png" alt="logo oso" id="bear-logo" height="40px" class="float-left"></li>
-      </ul>
+    <div class="searchbar">
+      <img src="images/npm-logo.png" alt="npm-logo" class="logo-npm" id="logo" height="40px">
+      <input type="text" class="searchbox" id="search" placeholder="Find packages..." />
+      <button type="submit"><i class="fa fa-search"></i></button>
+      <a href="#" class="signup-main">Sign up or log in</a>
+      <img src="images/bear-logo.png" alt="logo oso" class="logo-bear" id="bear-logo" height="40px" class="float-left">
     </div>
     <div class="clearfix"></div>
     <div class="main-text">
