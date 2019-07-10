@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,72 +8,88 @@
   <link rel="stylesheet" type="text/css" href="styles1.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
-      @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
-    </style>
+    @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300&display=swap');
+  </style>
   <title>npm</title>
 </head>
+
 <body>
-  <nav>
+  
+  <nav class="color-white">
     <div class="top-page-bar">
-      <a class="heart">♥︎</a>
+      <a class="heart color-white">♥︎</a>
       <span class="acronym">Neophobe Plebeian Mumpsimus</span>
     </div>
     <ul class="top-menu">
-      <li><a href="#">npm Enterprise</a></li>
-      <li><a href="#">features</a></li>
-      <li><a href="#">pricing</a></li>
-      <li><a href="#">documentation</a></li>
-      <li><a href="#">support</a></li>
+      <li><a href="#" class="color-white">npm Enterprise</a></li>
+      <li><a href="#" class="color-white">features</a></li>
+      <li><a href="#" class="color-white">pricing</a></li>
+      <li><a href="#" class="color-white">documentation</a></li>
+      <li><a href="#" class="color-white">support</a></li>
     </ul>
   </nav>
-  <header id="first-box">
+
+  <header id="first-box" class="color-white">
     <div class="searchbar">
       <img src="images/npm-logo.png" alt="npm-logo" class="logo-npm" id="logo" height="40px">
       <input type="text" class="searchbox" id="search" placeholder="Find packages..." />
-      <button type="submit"><i class="fa fa-search"></i></button>
-      <a href="#" class="signup-main">Sign up or log in</a>
-      <img src="images/bear-logo.png" alt="logo oso" class="logo-bear" id="bear-logo" height="40px" class="float-left">
+      <button type="submit"><i class="fa fa-search color-white"></i></button>
+      <a href="#" class="signup-main color-white">Sign up or log in</a>
+      <img src="images/bear-logo.png" alt="logo oso" class="logo-bear" id="bear-logo" height="40px">
     </div>
     <div class="clearfix"></div>
     <div class="main-text">
-    <h1 class="white-title">Build amazing things</h1>
-    <p>npm is the package manager for JavaScript and the world's largest software registry. Discover packages of reusable code -- and assemble them in powerful new ways.</p>
-    <a href="#">Sign up for npm</a>
+      <h1 class="white-title">Build amazing things</h1>
+      <p>npm is the package manager for JavaScript and the world's largest software registry. Discover packages of reusable code -- and assemble them in powerful new ways.</p>
+      <a href="#" class="signup-npm relative color-white">Sign up for npm</a>
     </div>
   </header>
+
   <section id="second-box">
-    <h1 class="big-white-title">npm Orgs is powerful collaboration - for free</h1>
-    <ul class="bullet-point-list">
-      <li>Encourage code discovery and re-use within teams</li>
-      <li>Publish and control access to your own namespace</li>
-      <li>Manage public and private code with the same workflow</li>
-    </ul>
-    <button id="signup-orgs">Sign up for Orgs</button>
-    <p>Or, <a href="#">Learn more about Orgs</a></p>
+    <div class="second-section color-white">
+      <img src="images/collaboration.svg" alt="collaboration" class="collaboration" id="collaboration" height="300px">
+      <h2 class="big-white-title padding">npm Orgs is powerful<br>collaboration - for free</h2>
+      <ul>
+        <li class="bullet-point-list">Encourage code discovery and re-use within teams</li>
+        <li class="bullet-point-list">Publish and control access to your own namespace</li>
+        <li class="bullet-point-list">Manage public and private code with the same workflow</li>
+      </ul>
+      <button class="signup-orgs color-white">Sign up for Orgs</button>
+      <p>Or, <a href="#" class="color-white">Learn more about Orgs</a></p>
+    </div>
   </section>
-  <section id="third-box">
-    <h2 class="white-title">What is npm?</h2>
-    <p>Use npm to install, share, and distribute code; manage dependencies in your projects; and share and receive feedback with others</p>
-    <a href="#">Install npm</a>
+
+  <section id="third-box" class="third-section relative">
+    <div class="third-box absolute color-white">
+      <h2 class="white-title">What is npm?</h2>
+      <p>Use npm to install, share, and distribute code;<br>manage dependencies in your projects; and<br>share and receive feedback with others</p>
+      <a href="#" class="install-npm relative color-white">Install npm</a>
+    </div>
   </section>
+
   <section id="fourth-box">
-    <h2 class="black-title">What can you make with 475,000 buiding blocks</h2>
-    <p>The npm registry hosts almost half a million packages of free, reusable code -- the largest software registry in the world</p>
-    <div class="icon-box">
-      <img src="images/binoculars.svg" alt="binoculars">
-      <h3>Find</h3>
-      <p>Libraries like <a href="#">JQuery</a>, <a href="#">Bootstrap</a>, <a href="#">React</a>, and <a href="#">Angular</a>, and components from frameworks such as <a href="#">Ember</a>.</p>
+    <div class="text-fourth-box">
+      <h2 class="black-title">What can you make with 475,000 buiding blocks</h2>
+      <p>The npm registry hosts almost half a million packages of free, reusable code -- the largest software registry in the world</p>
     </div>
-    <div class="icon-box">
-      <img src="images/mountain-flag.svg" alt="mountain-flag">
-      <h3>Discover</h3>
-      <p>Packages for mobile, IoT, front end, back end, robotics... everything  you need to start building amazing things.</p>
-    </div>
-    <div class="icon-box">
-      <img src="images/backpack.svg" alt="backpack">
-      <h3>Build</h3>
-      <p>Assemble packages like builgind blocks to quickly develop awesome new projects</p>
+    <div class="fourth-box-boxes">
+      <div class="icon-box">
+        <img src="images/binoculars.svg" alt="binoculars">
+        <h3>Find</h3>
+        <p>Libraries like <a href="#">JQuery</a>, <a href="#">Bootstrap</a>, <a href="#">React</a>, and <a href="#">Angular</a>, and components from frameworks such as <a href="#">Ember</a>.</p>  
+      </div>
+      <div class="icon-box">
+        <img src="images/mountain-flag.svg" alt="mountain-flag">
+        <h3>Discover</h3>
+        <p>Packages for mobile, IoT, front end, back end, robotics... everything you need to start building amazing things.</p>
+      </div>
+      <div class="icon-box">
+        <img src="images/backpack.svg" alt="backpack">
+        <h3>Build</h3>
+        <p>Assemble packages like builgind blocks to quickly develop awesome new projects</p>
+      </div>
     </div>
   </section>
 </body>
+
 </html>
